@@ -1,0 +1,447 @@
+交易 #,类型,信号,日期/时间,价格 USD
+1,进场,tempeture_index,2015-02-15,256.66
+1,出场,Close entry(s) order tempeture_index,2015-03-17,292.36
+2,进场,tempeture_index,2015-04-06,261.49
+2,出场,Close entry(s) order tempeture_index,2015-04-10,244.46
+3,进场,tempeture_index,2015-04-24,235.95
+3,出场,Close entry(s) order tempeture_index,2015-04-26,227.05
+4,进场,tempeture_index,2015-05-01,236.78
+4,出场,Close entry(s) order tempeture_index,2015-05-06,236.76
+5,进场,tempeture_index,2015-05-12,242.74
+5,出场,Close entry(s) order tempeture_index,2015-05-14,236.93
+6,进场,tempeture_index,2015-05-25,240.68
+6,出场,Close entry(s) order tempeture_index,2015-05-30,236.89
+7,进场,tempeture_index,2015-06-12,229.68
+1,进场,120_ma,2015-06-17,251.88
+7,出场,Close entry(s) order tempeture_index,2015-06-24,244.54
+1,出场,Close entry(s) order 120_ma,2015-06-25,240.14
+2,进场,120_ma,2015-06-28,251.46
+1,进场,ADX,2015-06-28,251.46
+8,进场,tempeture_index,2015-07-01,263.83
+8,出场,Close entry(s) order tempeture_index,2015-07-16,285.7
+9,进场,tempeture_index,2015-07-27,293.88
+9,出场,Close entry(s) order tempeture_index,2015-07-31,288.49
+1,出场,Close entry(s) order ADX,2015-08-08,280.06
+2,进场,ADX,2015-08-09,262.02
+2,出场,Close entry(s) order 120_ma,2015-08-19,221.99
+2,出场,Close entry(s) order ADX,2015-08-19,221.99
+10,进场,tempeture_index,2015-09-05,231.43
+10,出场,Close entry(s) order tempeture_index,2015-09-13,236.5
+11,进场,tempeture_index,2015-09-26,235.88
+3,进场,120_ma,2015-10-17,263.45
+3,进场,ADX,2015-10-19,265
+11,出场,Close entry(s) order tempeture_index,2015-11-09,373.84
+12,进场,tempeture_index,2015-11-27,352.56
+12,出场,Close entry(s) order tempeture_index,2015-12-05,363.98
+13,进场,tempeture_index,2015-12-06,388.03
+13,出场,Close entry(s) order tempeture_index,2015-12-21,442.36
+3,出场,Close entry(s) order ADX,2016-01-04,431.9
+14,进场,tempeture_index,2016-01-08,459.07
+14,出场,Close entry(s) order tempeture_index,2016-01-11,449.99
+15,进场,tempeture_index,2016-02-14,391
+15,出场,Close entry(s) order tempeture_index,2016-03-03,420.44
+16,进场,tempeture_index,2016-03-17,416.06
+16,出场,Close entry(s) order tempeture_index,2016-03-30,416.4
+17,进场,tempeture_index,2016-04-13,427.8
+17,出场,Close entry(s) order tempeture_index,2016-04-29,451.67
+18,进场,tempeture_index,2016-05-07,462.31
+18,出场,Close entry(s) order tempeture_index,2016-05-20,437.91
+19,进场,tempeture_index,2016-05-27,454.97
+4,进场,ADX,2016-06-06,575.17
+19,出场,Close entry(s) order tempeture_index,2016-06-22,667.88
+4,出场,Close entry(s) order ADX,2016-07-01,673.5
+20,进场,tempeture_index,2016-07-03,705.25
+20,出场,Close entry(s) order tempeture_index,2016-07-08,641.97
+21,进场,tempeture_index,2016-07-18,680
+21,出场,Close entry(s) order tempeture_index,2016-07-23,654.7
+3,出场,Close entry(s) order 120_ma,2016-08-03,538.8
+4,进场,120_ma,2016-08-04,573.35
+5,进场,ADX,2016-08-04,573.35
+4,出场,Close entry(s) order 120_ma,2016-08-16,567.85
+5,出场,Close entry(s) order ADX,2016-08-16,567.85
+22,进场,tempeture_index,2016-08-23,585.19
+22,出场,Close entry(s) order tempeture_index,2016-08-25,578.68
+23,进场,tempeture_index,2016-09-04,600.93
+5,进场,120_ma,2016-09-04,600.93
+6,进场,ADX,2016-09-07,612.99
+23,出场,Close entry(s) order tempeture_index,2016-09-13,606.86
+6,出场,Close entry(s) order ADX,2016-09-17,607.95
+5,出场,Close entry(s) order 120_ma,2016-09-20,608.6
+24,进场,tempeture_index,2016-09-29,604.96
+6,进场,120_ma,2016-10-12,642.3
+7,进场,ADX,2016-10-18,639.56
+24,出场,Close entry(s) order tempeture_index,2016-10-20,629.79
+7,出场,Close entry(s) order ADX,2016-10-20,629.79
+8,进场,ADX,2016-10-25,649.98
+25,进场,tempeture_index,2016-10-26,654.3
+25,出场,Close entry(s) order tempeture_index,2016-11-06,706.98
+26,进场,tempeture_index,2016-11-17,738.07
+8,出场,Close entry(s) order ADX,2016-11-22,736.39
+26,出场,Close entry(s) order tempeture_index,2016-11-24,741.51
+27,进场,tempeture_index,2016-12-01,742.51
+9,进场,ADX,2016-12-17,780.85
+27,出场,Close entry(s) order tempeture_index,2017-01-07,895.78
+9,出场,Close entry(s) order ADX,2017-01-21,894.31
+28,进场,tempeture_index,2017-01-22,925.06
+28,出场,Close entry(s) order tempeture_index,2017-01-25,887
+29,进场,tempeture_index,2017-02-01,970.01
+10,进场,ADX,2017-02-10,993.58
+29,出场,Close entry(s) order tempeture_index,2017-02-11,"1,001.88"
+10,出场,Close entry(s) order ADX,2017-02-11,"1,001.88"
+30,进场,tempeture_index,2017-02-21,"1,089.98"
+11,进场,ADX,2017-02-24,"1,185.81"
+30,出场,Close entry(s) order tempeture_index,2017-03-08,"1,237.32"
+31,进场,tempeture_index,2017-03-13,"1,235.27"
+31,出场,Close entry(s) order tempeture_index,2017-03-18,"1,068.78"
+6,出场,Close entry(s) order 120_ma,2017-03-25,933.94
+11,出场,Close entry(s) order ADX,2017-03-25,933.94
+7,进场,120_ma,2017-03-28,"1,042.28"
+12,进场,ADX,2017-03-30,"1,043.09"
+32,进场,tempeture_index,2017-04-01,"1,088.99"
+12,出场,Close entry(s) order ADX,2017-04-13,"1,214.68"
+32,出场,Close entry(s) order tempeture_index,2017-04-16,"1,178.84"
+33,进场,tempeture_index,2017-04-22,"1,249.98"
+13,进场,ADX,2017-04-22,"1,249.98"
+13,出场,Close entry(s) order ADX,2017-04-29,"1,352.96"
+14,进场,ADX,2017-05-04,"1,533.00"
+33,出场,Close entry(s) order tempeture_index,2017-05-28,"2,099.99"
+34,进场,tempeture_index,2017-06-06,"2,698.00"
+34,出场,Close entry(s) order tempeture_index,2017-06-14,"2,709.02"
+35,进场,tempeture_index,2017-06-21,"2,725.11"
+35,出场,Close entry(s) order tempeture_index,2017-06-25,"2,574.86"
+14,出场,Close entry(s) order ADX,2017-06-25,"2,574.86"
+15,进场,ADX,2017-07-03,"2,515.37"
+15,出场,Close entry(s) order ADX,2017-07-04,"2,542.41"
+36,进场,tempeture_index,2017-07-06,"2,616.96"
+36,出场,Close entry(s) order tempeture_index,2017-07-08,"2,501.15"
+37,进场,tempeture_index,2017-07-09,"2,560.84"
+37,出场,Close entry(s) order tempeture_index,2017-07-11,"2,330.93"
+16,进场,ADX,2017-07-12,"2,309.62"
+38,进场,tempeture_index,2017-07-21,"2,873.45"
+38,出场,Close entry(s) order tempeture_index,2017-07-26,"2,564.00"
+16,出场,Close entry(s) order ADX,2017-07-28,"2,664.99"
+39,进场,tempeture_index,2017-08-06,"3,243.50"
+17,进场,ADX,2017-08-11,"3,444.98"
+39,出场,Close entry(s) order tempeture_index,2017-08-22,"4,002.00"
+17,出场,Close entry(s) order ADX,2017-08-29,"4,384.99"
+40,进场,tempeture_index,2017-08-30,"4,599.01"
+40,出场,Close entry(s) order tempeture_index,2017-09-05,"4,498.46"
+18,进场,ADX,2017-09-22,"3,617.47"
+41,进场,tempeture_index,2017-09-28,"4,200.00"
+18,出场,Close entry(s) order ADX,2017-09-30,"4,156.99"
+19,进场,ADX,2017-10-15,"5,819.13"
+41,出场,Close entry(s) order tempeture_index,2017-10-25,"5,525.43"
+19,出场,Close entry(s) order ADX,2017-10-29,"5,752.01"
+20,进场,ADX,2017-10-30,"6,140.01"
+42,进场,tempeture_index,2017-11-01,"6,445.01"
+42,出场,Close entry(s) order tempeture_index,2017-11-11,"6,577.63"
+43,进场,tempeture_index,2017-11-16,"7,294.00"
+43,出场,Close entry(s) order tempeture_index,2017-12-21,"16,496.90"
+44,进场,tempeture_index,2018-01-06,"16,960.01"
+44,出场,Close entry(s) order tempeture_index,2018-01-09,"14,993.73"
+20,出场,Close entry(s) order ADX,2018-01-10,"14,481.00"
+21,进场,ADX,2018-01-19,"11,305.53"
+7,出场,Close entry(s) order 120_ma,2018-01-31,"9,995.00"
+21,出场,Close entry(s) order ADX,2018-01-31,"9,995.00"
+45,进场,tempeture_index,2018-02-15,"9,472.98"
+45,出场,Close entry(s) order tempeture_index,2018-02-24,"10,144.99"
+46,进场,tempeture_index,2018-03-24,"8,927.80"
+46,出场,Close entry(s) order tempeture_index,2018-03-25,"8,531.96"
+47,进场,tempeture_index,2018-04-13,"7,915.99"
+47,出场,Close entry(s) order tempeture_index,2018-04-18,"7,892.11"
+48,进场,tempeture_index,2018-04-20,"8,274.00"
+48,出场,Close entry(s) order tempeture_index,2018-05-02,"9,072.29"
+49,进场,tempeture_index,2018-05-06,"9,799.99"
+8,进场,120_ma,2018-05-06,"9,799.99"
+49,出场,Close entry(s) order tempeture_index,2018-05-08,"9,356.25"
+8,出场,Close entry(s) order 120_ma,2018-05-08,"9,356.25"
+50,进场,tempeture_index,2018-06-06,"7,612.51"
+50,出场,Close entry(s) order tempeture_index,2018-06-11,"6,770.31"
+51,进场,tempeture_index,2018-07-03,"6,611.79"
+51,出场,Close entry(s) order tempeture_index,2018-07-11,"6,303.69"
+52,进场,tempeture_index,2018-07-17,"6,728.80"
+9,进场,120_ma,2018-07-24,"7,720.08"
+22,进场,ADX,2018-07-28,"8,182.64"
+52,出场,Close entry(s) order tempeture_index,2018-08-01,"7,727.28"
+9,出场,Close entry(s) order 120_ma,2018-08-04,"7,414.08"
+22,出场,Close entry(s) order ADX,2018-08-04,"7,414.08"
+53,进场,tempeture_index,2018-08-23,"6,359.99"
+10,进场,120_ma,2018-09-03,"7,294.99"
+53,出场,Close entry(s) order tempeture_index,2018-09-06,"6,687.96"
+10,出场,Close entry(s) order 120_ma,2018-09-06,"6,687.96"
+54,进场,tempeture_index,2018-09-22,"6,750.00"
+54,出场,Close entry(s) order tempeture_index,2018-10-04,"6,466.03"
+55,进场,tempeture_index,2018-10-06,"6,593.94"
+55,出场,Close entry(s) order tempeture_index,2018-10-12,"6,154.68"
+56,进场,tempeture_index,2018-10-18,"6,443.69"
+56,出场,Close entry(s) order tempeture_index,2018-10-30,"6,266.00"
+57,进场,tempeture_index,2018-11-05,"6,423.29"
+57,出场,Close entry(s) order tempeture_index,2018-11-09,"6,406.24"
+58,进场,tempeture_index,2018-12-20,"3,682.51"
+58,出场,Close entry(s) order tempeture_index,2018-12-26,"3,780.00"
+59,进场,tempeture_index,2019-02-09,"3,622.00"
+59,出场,Close entry(s) order tempeture_index,2019-02-25,"3,734.23"
+60,进场,tempeture_index,2019-03-08,"3,857.04"
+11,进场,120_ma,2019-03-14,"3,851.02"
+60,出场,Close entry(s) order tempeture_index,2019-03-25,"3,969.52"
+61,进场,tempeture_index,2019-03-30,"4,091.01"
+23,进场,ADX,2019-04-04,"4,975.13"
+61,出场,Close entry(s) order tempeture_index,2019-04-15,"5,163.81"
+62,进场,tempeture_index,2019-04-24,"5,532.75"
+62,出场,Close entry(s) order tempeture_index,2019-04-26,"5,134.82"
+63,进场,tempeture_index,2019-05-03,"5,390.00"
+63,出场,Close entry(s) order tempeture_index,2019-05-23,"7,622.25"
+64,进场,tempeture_index,2019-05-28,"8,772.29"
+64,出场,Close entry(s) order tempeture_index,2019-05-31,"8,279.69"
+23,出场,Close entry(s) order ADX,2019-06-12,"7,913.64"
+65,进场,tempeture_index,2019-06-15,"8,697.45"
+24,进场,ADX,2019-06-22,"10,235.59"
+65,出场,Close entry(s) order tempeture_index,2019-07-01,"10,761.26"
+66,进场,tempeture_index,2019-07-09,"12,293.39"
+66,出场,Close entry(s) order tempeture_index,2019-07-14,"11,370.06"
+24,出场,Close entry(s) order ADX,2019-07-19,"10,652.76"
+67,进场,tempeture_index,2019-08-03,"10,533.62"
+67,出场,Close entry(s) order tempeture_index,2019-08-13,"11,389.25"
+68,进场,tempeture_index,2019-09-04,"10,628.48"
+68,出场,Close entry(s) order tempeture_index,2019-09-18,"10,185.42"
+11,出场,Close entry(s) order 120_ma,2019-09-22,"9,973.99"
+69,进场,tempeture_index,2019-10-11,"8,587.49"
+69,出场,Close entry(s) order tempeture_index,2019-10-17,"7,995.81"
+70,进场,tempeture_index,2019-10-22,"8,209.92"
+70,出场,Close entry(s) order tempeture_index,2019-10-23,"8,024.00"
+71,进场,tempeture_index,2019-10-27,"9,259.98"
+71,出场,Close entry(s) order tempeture_index,2019-11-09,"8,763.01"
+72,进场,tempeture_index,2019-12-07,"7,541.76"
+72,出场,Close entry(s) order tempeture_index,2019-12-12,"7,201.24"
+73,进场,tempeture_index,2019-12-23,"7,514.74"
+73,出场,Close entry(s) order tempeture_index,2020-01-03,"6,945.02"
+74,进场,tempeture_index,2020-01-06,"7,355.40"
+12,进场,120_ma,2020-01-15,"8,812.58"
+25,进场,ADX,2020-01-16,"8,808.81"
+74,出场,Close entry(s) order tempeture_index,2020-01-23,"8,660.38"
+75,进场,tempeture_index,2020-01-28,"8,895.95"
+75,出场,Close entry(s) order tempeture_index,2020-02-05,"9,164.33"
+76,进场,tempeture_index,2020-02-07,"9,763.01"
+76,出场,Close entry(s) order tempeture_index,2020-02-16,"9,911.22"
+25,出场,Close entry(s) order ADX,2020-02-25,"9,660.00"
+12,出场,Close entry(s) order 120_ma,2020-03-09,"8,037.73"
+77,进场,tempeture_index,2020-03-24,"6,493.58"
+77,出场,Close entry(s) order tempeture_index,2020-04-12,"6,889.78"
+78,进场,tempeture_index,2020-04-23,"7,136.81"
+13,进场,120_ma,2020-04-30,"8,794.99"
+26,进场,ADX,2020-05-04,"8,907.85"
+78,出场,Close entry(s) order tempeture_index,2020-05-11,"8,729.86"
+26,出场,Close entry(s) order ADX,2020-05-26,"8,900.00"
+79,进场,tempeture_index,2020-05-30,"9,423.85"
+79,出场,Close entry(s) order tempeture_index,2020-06-03,"9,521.53"
+27,进场,ADX,2020-06-07,"9,670.28"
+27,出场,Close entry(s) order ADX,2020-06-12,"9,268.16"
+80,进场,tempeture_index,2020-07-09,"9,435.28"
+80,出场,Close entry(s) order tempeture_index,2020-07-15,"9,256.94"
+81,进场,tempeture_index,2020-07-22,"9,394.14"
+28,进场,ADX,2020-07-28,"11,048.05"
+81,出场,Close entry(s) order tempeture_index,2020-08-12,"11,388.88"
+82,进场,tempeture_index,2020-08-18,"12,303.98"
+82,出场,Close entry(s) order tempeture_index,2020-08-20,"11,758.87"
+28,出场,Close entry(s) order ADX,2020-08-31,"11,716.00"
+83,进场,tempeture_index,2020-09-02,"11,924.22"
+83,出场,Close entry(s) order tempeture_index,2020-09-03,"11,395.49"
+29,进场,ADX,2020-09-08,"10,375.00"
+84,进场,tempeture_index,2020-09-16,"10,783.36"
+29,出场,Close entry(s) order ADX,2020-09-17,"10,957.06"
+84,出场,Close entry(s) order tempeture_index,2020-09-22,"10,416.83"
+85,进场,tempeture_index,2020-09-27,"10,730.00"
+85,出场,Close entry(s) order tempeture_index,2020-10-04,"10,550.32"
+86,进场,tempeture_index,2020-10-06,"10,796.97"
+30,进场,ADX,2020-10-19,"11,514.20"
+86,出场,Close entry(s) order tempeture_index,2020-11-27,"17,169.99"
+87,进场,tempeture_index,2020-12-14,"19,166.65"
+87,出场,Close entry(s) order tempeture_index,2021-01-13,"34,035.53"
+30,出场,Close entry(s) order ADX,2021-01-30,"34,262.11"
+88,进场,tempeture_index,2021-02-03,"35,513.00"
+31,进场,ADX,2021-02-11,"44,850.00"
+88,出场,Close entry(s) order tempeture_index,2021-02-24,"48,899.99"
+31,出场,Close entry(s) order ADX,2021-03-02,"49,635.30"
+89,进场,tempeture_index,2021-03-09,"52,413.17"
+32,进场,ADX,2021-03-16,"55,629.08"
+89,出场,Close entry(s) order tempeture_index,2021-03-17,"56,924.26"
+32,出场,Close entry(s) order ADX,2021-03-17,"56,924.26"
+90,进场,tempeture_index,2021-03-31,"58,786.46"
+90,出场,Close entry(s) order tempeture_index,2021-04-04,"57,094.34"
+91,进场,tempeture_index,2021-04-14,"63,588.22"
+91,出场,Close entry(s) order tempeture_index,2021-04-18,"60,067.20"
+33,进场,ADX,2021-04-27,"54,047.80"
+92,进场,tempeture_index,2021-05-02,"57,859.28"
+33,出场,Close entry(s) order ADX,2021-05-02,"57,859.28"
+92,出场,Close entry(s) order tempeture_index,2021-05-11,"55,866.38"
+13,出场,Close entry(s) order 120_ma,2021-05-13,"49,498.76"
+93,进场,tempeture_index,2021-06-04,"39,248.54"
+93,出场,Close entry(s) order tempeture_index,2021-06-07,"35,800.48"
+94,进场,tempeture_index,2021-06-12,"37,340.08"
+94,出场,Close entry(s) order tempeture_index,2021-06-17,"38,351.00"
+95,进场,tempeture_index,2021-07-01,"35,060.00"
+95,出场,Close entry(s) order tempeture_index,2021-07-02,"33,510.93"
+96,进场,tempeture_index,2021-07-04,"34,685.03"
+96,出场,Close entry(s) order tempeture_index,2021-07-13,"33,077.43"
+97,进场,tempeture_index,2021-07-25,"34,291.67"
+97,出场,Close entry(s) order tempeture_index,2021-08-05,"39,718.90"
+98,进场,tempeture_index,2021-08-07,"42,869.59"
+14,进场,120_ma,2021-08-07,"42,869.59"
+34,进场,ADX,2021-08-08,"44,628.11"
+98,出场,Close entry(s) order tempeture_index,2021-08-18,"44,675.34"
+99,进场,tempeture_index,2021-08-23,"49,284.38"
+99,出场,Close entry(s) order tempeture_index,2021-08-25,"47,682.45"
+100,进场,tempeture_index,2021-09-02,"48,834.27"
+100,出场,Close entry(s) order tempeture_index,2021-09-08,"46,894.49"
+101,进场,tempeture_index,2021-09-19,"48,309.86"
+34,出场,Close entry(s) order ADX,2021-09-19,"48,309.86"
+101,出场,Close entry(s) order tempeture_index,2021-09-20,"47,253.71"
+35,进场,ADX,2021-09-24,"44,896.55"
+102,进场,tempeture_index,2021-10-02,"48,165.76"
+102,出场,Close entry(s) order tempeture_index,2021-10-24,"61,300.02"
+103,进场,tempeture_index,2021-10-30,"62,287.95"
+103,出场,Close entry(s) order tempeture_index,2021-10-31,"61,896.38"
+104,进场,tempeture_index,2021-11-08,"63,309.12"
+104,出场,Close entry(s) order tempeture_index,2021-11-13,"64,144.42"
+35,出场,Close entry(s) order ADX,2021-11-17,"60,101.56"
+14,出场,Close entry(s) order 120_ma,2021-12-05,"49,235.26"
+105,进场,tempeture_index,2021-12-24,"50,842.06"
+105,出场,Close entry(s) order tempeture_index,2021-12-29,"47,542.20"
+106,进场,tempeture_index,2022-02-01,"38,492.53"
+106,出场,Close entry(s) order tempeture_index,2022-02-14,"42,073.37"
+107,进场,tempeture_index,2022-03-02,"44,440.00"
+107,出场,Close entry(s) order tempeture_index,2022-03-07,"38,406.82"
+108,进场,tempeture_index,2022-03-10,"41,949.28"
+108,出场,Close entry(s) order tempeture_index,2022-03-11,"39,431.40"
+109,进场,tempeture_index,2022-03-18,"40,950.23"
+15,进场,120_ma,2022-03-26,"44,336.19"
+109,出场,Close entry(s) order tempeture_index,2022-04-06,"45,509.92"
+15,出场,Close entry(s) order 120_ma,2022-04-09,"42,261.90"
+110,进场,tempeture_index,2022-05-31,"31,716.67"
+110,出场,Close entry(s) order tempeture_index,2022-06-11,"29,058.79"
+111,进场,tempeture_index,2022-07-08,"21,618.04"
+111,出场,Close entry(s) order tempeture_index,2022-07-11,"20,850.65"
+112,进场,tempeture_index,2022-07-14,"20,219.69"
+112,出场,Close entry(s) order tempeture_index,2022-07-25,"22,583.37"
+113,进场,tempeture_index,2022-07-31,"23,648.15"
+113,出场,Close entry(s) order tempeture_index,2022-08-02,"23,273.85"
+114,进场,tempeture_index,2022-08-14,"24,456.17"
+114,出场,Close entry(s) order tempeture_index,2022-08-17,"23,857.89"
+115,进场,tempeture_index,2022-09-11,"21,656.03"
+115,出场,Close entry(s) order tempeture_index,2022-09-14,"20,174.78"
+116,进场,tempeture_index,2022-09-30,"19,595.59"
+116,出场,Close entry(s) order tempeture_index,2022-10-08,"19,531.68"
+117,进场,tempeture_index,2022-10-24,"19,572.20"
+117,出场,Close entry(s) order tempeture_index,2022-11-02,"20,480.34"
+16,进场,120_ma,2022-11-05,"21,149.03"
+16,出场,Close entry(s) order 120_ma,2022-11-08,"20,593.34"
+118,进场,tempeture_index,2022-12-01,"17,165.44"
+118,出场,Close entry(s) order tempeture_index,2022-12-04,"16,889.17"
+119,进场,tempeture_index,2022-12-14,"17,772.98"
+119,出场,Close entry(s) order tempeture_index,2022-12-16,"17,359.10"
+120,进场,tempeture_index,2023-01-05,"16,844.40"
+17,进场,120_ma,2023-01-13,"18,847.77"
+120,出场,Close entry(s) order tempeture_index,2023-02-04,"23,433.47"
+121,进场,tempeture_index,2023-02-08,"23,244.64"
+121,出场,Close entry(s) order tempeture_index,2023-02-09,"22,963.91"
+122,进场,tempeture_index,2023-02-16,"24,326.95"
+122,出场,Close entry(s) order tempeture_index,2023-02-20,"24,278.81"
+123,进场,tempeture_index,2023-03-14,"24,220.00"
+123,出场,Close entry(s) order tempeture_index,2023-03-28,"27,142.85"
+124,进场,tempeture_index,2023-04-10,"28,342.28"
+124,出场,Close entry(s) order tempeture_index,2023-04-19,"30,394.50"
+125,进场,tempeture_index,2023-05-06,"29,538.87"
+125,出场,Close entry(s) order tempeture_index,2023-05-09,"27,693.24"
+126,进场,tempeture_index,2023-05-29,"28,070.04"
+126,出场,Close entry(s) order tempeture_index,2023-06-06,"25,741.50"
+17,出场,Close entry(s) order 120_ma,2023-06-06,"25,741.50"
+18,进场,120_ma,2023-06-07,"27,243.45"
+18,出场,Close entry(s) order 120_ma,2023-06-11,"25,856.10"
+127,进场,tempeture_index,2023-06-20,"26,839.04"
+19,进场,120_ma,2023-06-21,"28,320.41"
+127,出场,Close entry(s) order tempeture_index,2023-07-06,"30,499.27"
+128,进场,tempeture_index,2023-07-11,"30,419.89"
+128,出场,Close entry(s) order tempeture_index,2023-07-13,"30,383.26"
+129,进场,tempeture_index,2023-07-14,"31,471.83"
+129,出场,Close entry(s) order tempeture_index,2023-07-16,"30,302.01"
+130,进场,tempeture_index,2023-08-09,"29,770.01"
+130,出场,Close entry(s) order tempeture_index,2023-08-13,"29,417.19"
+19,出场,Close entry(s) order 120_ma,2023-08-18,"26,627.21"
+131,进场,tempeture_index,2023-09-16,"26,601.71"
+131,出场,Close entry(s) order tempeture_index,2023-09-23,"26,578.40"
+132,进场,tempeture_index,2023-10-02,"27,995.46"
+132,出场,Close entry(s) order tempeture_index,2023-10-06,"27,413.15"
+133,进场,tempeture_index,2023-10-17,"28,520.24"
+20,进场,120_ma,2023-10-17,"28,520.24"
+133,出场,Close entry(s) order tempeture_index,2023-11-15,"35,554.10"
+134,进场,tempeture_index,2023-11-23,"37,424.31"
+134,出场,Close entry(s) order tempeture_index,2023-12-12,"41,229.61"
+135,进场,tempeture_index,2023-12-21,"43,673.11"
+135,出场,Close entry(s) order tempeture_index,2023-12-29,"42,581.23"
+136,进场,tempeture_index,2024-01-02,"44,220.78"
+136,出场,Close entry(s) order tempeture_index,2024-01-13,"42,775.10"
+137,进场,tempeture_index,2024-01-30,"43,303.30"
+137,出场,Close entry(s) order tempeture_index,2024-02-05,"42,571.91"
+138,进场,tempeture_index,2024-02-08,"44,345.94"
+138,出场,Close entry(s) order tempeture_index,2024-02-24,"50,746.98"
+139,进场,tempeture_index,2024-02-27,"54,530.32"
+36,进场,ADX,2024-03-12,"72,110.98"
+139,出场,Close entry(s) order tempeture_index,2024-03-16,"69,514.87"
+140,进场,tempeture_index,2024-03-29,"70,804.06"
+36,出场,Close entry(s) order ADX,2024-03-31,"69,623.86"
+140,出场,Close entry(s) order tempeture_index,2024-04-04,"65,984.18"
+141,进场,tempeture_index,2024-04-07,"68,919.57"
+141,出场,Close entry(s) order tempeture_index,2024-04-13,"67,148.62"
+37,进场,ADX,2024-05-01,"60,621.20"
+142,进场,tempeture_index,2024-05-07,"63,161.35"
+142,出场,Close entry(s) order tempeture_index,2024-05-08,"62,315.75"
+37,出场,Close entry(s) order ADX,2024-05-08,"62,315.75"
+143,进场,tempeture_index,2024-05-14,"62,927.44"
+143,出场,Close entry(s) order tempeture_index,2024-05-27,"68,470.80"
+144,进场,tempeture_index,2024-06-05,"70,541.68"
+144,出场,Close entry(s) order tempeture_index,2024-06-08,"69,326.71"
+20,出场,Close entry(s) order 120_ma,2024-06-20,"64,945.67"
+145,进场,tempeture_index,2024-07-15,"60,804.97"
+21,进场,120_ma,2024-07-20,"66,707.61"
+38,进场,ADX,2024-07-20,"66,707.61"
+38,出场,Close entry(s) order ADX,2024-07-27,"67,921.46"
+145,出场,Close entry(s) order tempeture_index,2024-07-31,"66,169.68"
+21,出场,Close entry(s) order 120_ma,2024-08-03,"61,418.06"
+146,进场,tempeture_index,2024-08-20,"59,455.81"
+22,进场,120_ma,2024-08-26,"64,250.01"
+22,出场,Close entry(s) order 120_ma,2024-08-27,"62,840.09"
+146,出场,Close entry(s) order tempeture_index,2024-08-28,"59,437.68"
+147,进场,tempeture_index,2024-09-13,"58,137.33"
+23,进场,120_ma,2024-09-21,"63,210.94"
+147,出场,Close entry(s) order tempeture_index,2024-10-02,"60,792.63"
+23,出场,Close entry(s) order 120_ma,2024-10-02,"60,792.63"
+24,进场,120_ma,2024-10-07,"62,810.93"
+24,出场,Close entry(s) order 120_ma,2024-10-10,"60,578.28"
+25,进场,120_ma,2024-10-12,"62,518.75"
+148,进场,tempeture_index,2024-10-15,"66,065.64"
+148,出场,Close entry(s) order tempeture_index,2024-10-26,"66,564.51"
+149,进场,tempeture_index,2024-10-30,"72,724.35"
+149,出场,Close entry(s) order tempeture_index,2024-11-02,"69,466.64"
+150,进场,tempeture_index,2024-11-07,"75,646.55"
+39,进场,ADX,2024-11-11,"80,427.69"
+150,出场,Close entry(s) order tempeture_index,2024-11-27,"91,929.53"
+151,进场,tempeture_index,2024-12-17,"106,099.98"
+151,出场,Close entry(s) order tempeture_index,2024-12-19,"100,148.60"
+39,出场,Close entry(s) order ADX,2025-01-03,"96,905.48"
+152,进场,tempeture_index,2025-01-06,"98,347.65"
+152,出场,Close entry(s) order tempeture_index,2025-01-08,"96,941.98"
+153,进场,tempeture_index,2025-01-16,"100,504.27"
+153,出场,Close entry(s) order tempeture_index,2025-01-27,"102,565.28"
+40,进场,ADX,2025-02-12,"95,770.95"
+25,出场,Close entry(s) order 120_ma,2025-02-25,"91,509.88"
+40,出场,Close entry(s) order ADX,2025-02-25,"91,509.88"
+154,进场,tempeture_index,2025-03-20,"86,877.97"
+154,出场,Close entry(s) order tempeture_index,2025-03-29,"84,381.81"
+155,进场,tempeture_index,2025-04-02,"85,166.92"
+155,出场,Close entry(s) order tempeture_index,2025-04-03,"82,490.10"
+156,进场,tempeture_index,2025-04-13,"85,271.02"
+26,进场,120_ma,2025-04-23,"93,486.57"
+41,进场,ADX,2025-04-28,"93,780.56"
+156,出场,Close entry(s) order tempeture_index,2025-05-29,"107,819.26"
+41,出场,Close entry(s) order ADX,2025-06-02,"105,697.93"
+26,出场,开盘价,2025-06-09,"105,631.37"
