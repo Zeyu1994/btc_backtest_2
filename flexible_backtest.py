@@ -39,14 +39,14 @@ POSITIONS = {"空仓", "现货", "一倍合约", "两倍合约"}
 
 # ------------------------- 默认策略映射 -------------------------
 DEFAULT_POLICY: Dict[FrozenSet[str], dict] = {
-    frozenset(): {"position": "空仓"},
-    frozenset({"tempeture_index"}): {"position": "现货"},
-    frozenset({"120_ma"}): {"position": "现货"},
-    frozenset({"ADX"}): {"position": "现货"},
-    frozenset({"tempeture_index", "120_ma"}): {"position": "一倍合约"},
-    frozenset({"tempeture_index", "ADX"}): {"position": "一倍合约"},
-    frozenset({"120_ma", "ADX"}): {"position": "一倍合约"},
-    frozenset({"tempeture_index", "120_ma", "ADX"}): {"position": "两倍合约"},
+    frozenset(): {"position": "空仓", "ratio": 0.0},
+    frozenset({"tempeture_index"}): {"position": "现货", "ratio": 1.0},
+    frozenset({"120_ma"}): {"position": "现货", "ratio": 1.0},
+    frozenset({"ADX"}): {"position": "现货", "ratio": 1.0},
+    frozenset({"tempeture_index", "120_ma"}): {"position": "一倍合约", "ratio": 1.0},
+    frozenset({"tempeture_index", "ADX"}): {"position": "一倍合约", "ratio": 1.0},
+    frozenset({"120_ma", "ADX"}): {"position": "一倍合约", "ratio": 1.0},
+    frozenset({"tempeture_index", "120_ma", "ADX"}): {"position": "两倍合约", "ratio": 1.0},
 }
 
 # ------------------------- 工具函数 -------------------------
@@ -111,35 +111,36 @@ def run_backtest(policy: Dict[FrozenSet[str], dict],
 
         signal_key = frozenset(active_signals)
         target_cfg = policy.get(signal_key, None)
-        target_position: str = target_cfg["position"] if target_cfg else position  # 缺省沿用
-        if target_position not in POSITIONS:
-            raise ValueError(f"未知仓位类型: {target_position}")
+        target_position: str = target_cfg["position"] if target_cfg else position
+        target_ratio: float = target_cfg.get("ratio", 1.0) if target_cfg else 1.0
 
         # -------- step3: 若需要换仓，先全部平为 USD，再开新仓 --------
-        if target_position != position:
+        if target_position != position or abs(target_ratio - (btc*price)/(usd+btc*price) if (usd+btc*price)>0 else 0) > 1e-6:
             # 平掉旧仓 → 变 USD
             if position == "现货":
-                usd = btc * price
+                usd += btc * price
                 btc = 0.0
             elif position in {"一倍合约", "两倍合约"}:
-                usd = btc * price  # 步骤1 已结算 PnL
+                usd += btc * price  # 步骤1 已结算 PnL
                 btc = 0.0
             # 空仓则 usd 保持不变
 
             # 开新仓
+            invest_usd = (usd) * target_ratio  # 以当前总USD投入比例
             if target_position == "现货":
-                btc = usd / price
-                usd = 0.0
+                btc = invest_usd / price
             elif target_position in {"一倍合约", "两倍合约"}:
-                btc = usd / price
-                usd = 0.0
+                btc = invest_usd / price
                 last_price = price  # 开仓价
+            else:
+                btc = 0.0
+            usd = usd - invest_usd  # 保留未投入部分
             # 若目标为空仓就什么都不做
-            remark = f"换仓→{target_position}"
+            remark = f"换仓→{target_position} (ratio {target_ratio})"
             position = target_position
 
         # -------- step4: 写回明细 --------
-        total_assets = usd if usd > 0 else btc * price
+        total_assets = usd + btc * price
         df.at[idx, "当前仓位类型"] = position
         df.at[idx, "持有BTC数量"] = btc
         df.at[idx, "当前总资产USD"] = total_assets

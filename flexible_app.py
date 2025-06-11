@@ -50,14 +50,25 @@ def combo_label(fs: frozenset[str]) -> str:
     return " & ".join(sorted(fs)) if fs else "无信号"
 
 for i, fs in enumerate(all_combos):
-    default_pos = DEFAULT_POLICY.get(fs, {"position": "空仓"})["position"]
-    sel = st.sidebar.selectbox(
-        combo_label(fs),
-        POSITION_CHOICES,
-        index=POSITION_CHOICES.index(default_pos),
-        key=f"combo_{i}",
-    )
-    policy[fs] = {"position": sel}
+    default_cfg = DEFAULT_POLICY.get(fs, {"position": "空仓", "ratio": 0.0})
+    default_pos = default_cfg["position"]
+    default_ratio = float(default_cfg.get("ratio", 1.0))
+
+    c1, c2 = st.sidebar.columns([2, 1])
+    with c1:
+        sel = st.selectbox(
+            combo_label(fs),
+            POSITION_CHOICES,
+            index=POSITION_CHOICES.index(default_pos),
+            key=f"pos_{i}",
+        )
+    with c2:
+        ratio_val = st.number_input(
+            label="比例", min_value=0.0, max_value=1.0, step=0.1, value=default_ratio,
+            key=f"ratio_{i}",
+        )
+
+    policy[fs] = {"position": sel, "ratio": ratio_val}
 
 st.sidebar.markdown("---")
 run_clicked = st.sidebar.button("▶ 运行回测")
@@ -69,7 +80,11 @@ if run_clicked:
 
     # 处理日期与日度权益
     result_df["date"] = pd.to_datetime(result_df["日期/时间"])
-    daily_equity = result_df.groupby("date")["当前总资产USD"].last()
+    daily_equity = (
+        result_df.groupby("date")["当前总资产USD"].last().astype(float)
+    )
+    # 去掉可能为 0 的首尾记录，避免除零导致 -100%
+    daily_equity = daily_equity[daily_equity > 0]
     returns = daily_equity.pct_change().dropna()
 
     # 关键指标
