@@ -113,6 +113,38 @@ if run_clicked:
     st.subheader("按日期明细 (前 500 行)")
     st.dataframe(result_df.head(500))
 
+    # --- 生成月度收益表 ---
+    monthly_equity = daily_equity.resample('M').last()
+    monthly_ret = monthly_equity.pct_change()
+
+    table = []
+    cum_return = 0.0
+    ytd_return = 0.0
+    current_year = None
+    for date, m_ret in monthly_ret.dropna().items():
+        year_month = date.strftime('%Y-%m')
+        year = date.year
+        if current_year != year:
+            current_year = year
+            ytd_return = m_ret
+        else:
+            ytd_return = (1 + ytd_return) * (1 + m_ret) - 1
+        cum_return = (1 + cum_return) * (1 + m_ret) - 1
+        table.append([year_month,
+                      f"{m_ret*100:.2f}%",
+                      f"{ytd_return*100:.2f}%",
+                      f"{cum_return*100:.2f}%"])
+
+    ret_df = pd.DataFrame(table, columns=["年/月", "月收益率", "当年YTD", "累计收益率"])
+    ret_path = "return.csv"
+    ret_df.to_csv(ret_path, index=False, encoding="utf-8-sig")
+
+    st.subheader("月度收益")
+    st.dataframe(ret_df, use_container_width=True, height=500)
+
+    csv_bytes = ret_df.to_csv(index=False, encoding='utf-8-sig').encode('utf-8-sig')
+    st.download_button("📥 下载月收益 CSV", csv_bytes, file_name="return.csv", mime="text/csv")
+
     st.success("回测完成！")
 else:
     st.info("请在左侧面板设置参数并点击 '运行回测' 按钮") 
